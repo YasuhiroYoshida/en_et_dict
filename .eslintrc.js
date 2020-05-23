@@ -11,7 +11,16 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'prettier/prettier': ['error'],
+    'prettier/prettier': [
+      'error',
+      {},
+      {
+        useTabs: false,
+      },
+    ],
+    'no-this-assignment': ['off'],
+    '@typescript-eslint/no-this-alias': ['off'],
+    'prefer-const': ['warn'],
   },
   overrides: [
     {
