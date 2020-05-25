@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import VueLoading from 'vuejs-loading-plugin';
 import App from './App.vue';
-import './registerServiceWorker';
 import router from './router';
 import store from './store';
 import 'materialize-css/dist/css/materialize.min.css';
