@@ -407,12 +407,9 @@ export default {
           console.log('Finding Estonian words failed: ', error);
         });
 
-      console.log('results', this.results, this.results.length, this.resultsTotal);
-      // this.$loading(false);
       setTimeout(() => {
         this.$loading(false);
       }, 1000);
-      console.log('results', this.results, this.results.length, this.resultsTotal);
     },
     buildEstonianWordList(html, query) {
       let estonianWords = [];
