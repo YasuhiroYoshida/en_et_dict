@@ -111,15 +111,12 @@
                       4. Wait a moment for Estonian words to be presented<br />
                       <span class="indent-1em">
                         <strong>the results are shown in this order:</strong><br />
-                        1. Estonian word<br />
-                        2. Inflections<br />
-                        3. Inflection pattern name -
-                        <i
-                          >alphanumerical word, clickable to toggle the side notes that immediately
-                          follow</i
-                        ><br />
-                        4. Inflection pattern side notes (=Märkused.)<br />
-                        5. Other examples and comparatives - An entry whose pattern name is
+                        ✅ Estonian word<br />
+                        ✅ Inflections<br />
+                        ✅ Inflection pattern name - alphanumerical word, clickable to toggle the
+                        side notes that immediately follow<br />
+                        ✅ Inflection pattern side notes (=Märkused.)<br />
+                        ✅ Other examples and comparatives - an entry whose pattern name is
                         highlighted is the one you are looking for
                       </span>
                       5. Repeat 1 through 4 for a different English word
