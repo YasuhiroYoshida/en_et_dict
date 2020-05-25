@@ -108,23 +108,26 @@
                       form you type can be used<br />
                       3. Pick the one closest to what you typed from the candidates - use
                       ↑/↓/Esc/Enter key or mouse<br />
-                      4. Wait a moment for Estonian words to be presented -
-                      <strong>the results are shown in this order:</strong><br />
-                      1. Estonian word<br />
-                      2. Inflections<br />
-                      3. Inflection pattern name -
-                      <i
-                        >alphanumerical word, clickable to toggle the side notes that immediately
-                        follow</i
-                      ><br />
-                      4. Inflection pattern side notes<br />
-                      5. Examples and those of comparatives of the pattern<br />
-                      6. Repeat 1 through 5 for a different English word
+                      4. Wait a moment for Estonian words to be presented<br />
+                      <span class="indent-1em">
+                        <strong>the results are shown in this order:</strong><br />
+                        1. Estonian word<br />
+                        2. Inflections<br />
+                        3. Inflection pattern name -
+                        <i
+                          >alphanumerical word, clickable to toggle the side notes that immediately
+                          follow</i
+                        ><br />
+                        4. Inflection pattern side notes (=Märkused.)<br />
+                        5. Other examples and comparatives - An entry whose pattern name is
+                        highlighted is the one you are looking for
+                      </span>
+                      5. Repeat 1 through 4 for a different English word
                     </p>
                     <p class="section">
                       <span class="strong">What's happening under the hood:</span>
                       <br />
-                      1. On every visit, a request is sent out to Institute of the Estonian
+                      1. On every visit, a request is sent out to The Institute of the Estonian
                       Language's
                       <a :href="EST_SPELLING_RULES_URL" target="_blank">2018 MUUTTÜÜBID</a>
                       to get the inflection rules<br />
@@ -144,7 +147,7 @@
                         >[ÕS] Eesti õigekeelsussõnaraamat ÕS 2018</a
                       >
                       to get its inflections and rules applied<br />
-                      5. Combined with the content gotten in #1 above, the these findings are shown
+                      5. Combined with the inflection rules obtained earlier, the findings are shown
                       as your search results
                     </p>
                     <p class="section">
@@ -489,12 +492,6 @@ export default {
 </script>
 
 <style scoped>
-.footer-notes {
-  text-align: left;
-}
-.strong {
-  font-weight: bold;
-}
 .title {
   font-size: 4em;
   color: #0072ce;
@@ -555,5 +552,15 @@ input[type='text']:not(.browser-default):focus:not([readonly]) {
   border-bottom: 1px solid #000000;
   box-shadow: 0 1px 0 0 #000000;
   color: #000000;
+}
+.footer-notes {
+  text-align: left;
+}
+.strong {
+  font-weight: bold;
+}
+.indent-1em {
+  display: inline-block;
+  padding-left: 1em;
 }
 </style>
