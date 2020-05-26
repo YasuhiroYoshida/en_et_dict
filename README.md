@@ -1,11 +1,11 @@
-# en_ee_dict
+# en_et_dict
 
 A single page app project built with Vue.js and Materialize.
 It is an English-Estonian dictionary that returns results it collects from external resources.
 
 ## Where to find
 
-<https://en-ee-dict.herokuapp.com/>
+<https://en-et-dict.herokuapp.com/>
 
 ## History
 
